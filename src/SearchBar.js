@@ -10,6 +10,7 @@ class SearchBar extends Component {
       term: event.target.value
     })
   }
+  
 
   onFormSubmit = (event) => {
     event.preventDefault();
